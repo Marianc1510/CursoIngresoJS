@@ -16,6 +16,7 @@ function mostrar()
     {
         alert(" Es menor de edad ");
     }
-    
-
+    // este ejercicio esta mal como lo realice porque hay que hacer una solo conclusion.
+ //else if (edad >=18)
+ //else alert es menor de edad
 }//FIN DE LA FUNCIÓN
