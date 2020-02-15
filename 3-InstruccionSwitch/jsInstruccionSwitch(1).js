@@ -4,21 +4,18 @@ function mostrar()
 var mesDelAño; 
 var mesDelAño = document.getElementById('mes').value;
 switch (mesDelAño){
-    case "enero":
-    {
+    case "Enero":
         alert(" que comiences bien el año");
         break;
-    }
-     case "julio":
-    {
+     case "Julio":
         alert("se vienen las vacaciones!!!");
         break;
-    }
-    case"diciembre":
-    {
+    case "Diciembre":
         alert("felices fiestas!!");
         break;
-    }
+    default:
+    
+    break;
 
 }
 
