@@ -2,11 +2,12 @@ function mostrar()
 { 
     var precio;
     var descuento;
-    var preciofinal;
+    var precioFinal;
 
     precio=prompt(precio);
     descuento= precio * 30 / 100;
-    document.getElementById("elPrecioFinal").value= precio - descuento;
+    precioFinal = precio - descuento;
+    document.getElementById("elPrecioFinal").value= precioFinal;
 
 
 }

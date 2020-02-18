@@ -6,6 +6,6 @@ function mostrar()
     var resultado;
     informacionUno= prompt("Ingrese ancho");
     informacionDos= prompt("Ingrese altura");
-    resultado= (informacionUno + informacionDos) * 2;
+    resultado= informacionUno * 2 + informacionDos * 2;
     alert(" Su perimetro es " + resultado);
 }

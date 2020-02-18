@@ -13,6 +13,6 @@ function mostrar()
 			alert("aprobo");
 		}
 		else {
-			alerto ("vamos la proxima se puede");
+			alert("vamos la proxima se puede");
 		}
 }//FIN DE LA FUNCIÓN
